@@ -1,0 +1,2 @@
+#!/usr/bin/env zsh
+exec bb --config "$HOME/scripts/clj/bb.edn" "$@"

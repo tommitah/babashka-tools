@@ -1,0 +1,7 @@
+{:deps {org.babashka/cli {:mvn/version "0.8.60"}
+        org.babashka/json {:mvn/version "0.1.6"}}
+ :tasks {login {:doc "Run heeros login"
+                :task (shell "bb"
+                             (str (System/getProperty "user.home")
+                                  "/scripts/clj/clj_asu.clj")
+                             *command-line-args*)}}}
