@@ -1,9 +1,3 @@
-# Why though?
-heeros cli has `asu domino`, why this?
-
-Well firstly, to store the output in my shell environment by default and to be able to use different environments (`asu domino` is restricted to test).
-Secondly and most importantly, IT'S FUN and IN CLOJURE!
-
 ## Requirements
 1. Install (babashka)[https://github.com/babashka/babashka?tab=readme-ov-file#brew]
 
